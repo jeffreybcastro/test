@@ -11,7 +11,6 @@
     zoom: 1.25;
     margin-left: -15px;
     margin-right: -15px;
-    border-style: solid;
 
     &:after {
         display: block;
@@ -23,6 +22,7 @@
     .ckhn_check, .ckhn_stub_1, .ckhn_stub_2 {
         position: absolute;
         height: 3.25in;
+        border-style: solid;
     }
 
     .ckhn_check > * {
