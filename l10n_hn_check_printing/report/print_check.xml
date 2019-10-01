@@ -28,7 +28,7 @@
     </div>
 </template>
 
-<!--template id="ckhn_stub">
+<template id="ckhn_stub">
     <div t-attf-class="ckhn_stub ckhn_stub_{{ stub_num }}">
         <div class="sequence_number" t-if="page['sequence_number']" t-esc="page['sequence_number']" />
         <div class="row summary_line">
@@ -70,7 +70,7 @@
             <t t-esc="page['amount']"/>
         </div>
     </div>
-</template-->
+</template>
 
 </data>
 </odoo>
