@@ -19,7 +19,7 @@
         </record>
 
         <report id="action_print_check_top"
-            string="Print Check (Top)"
+            string="Print Check HN (Top)"
             model="account.payment"
             name="l10n_hn_check_printing.print_check_top"
             file="l10n_hn_check_printing.print_check_top"
@@ -32,7 +32,7 @@
         />
 
         <report id="action_print_check_middle"
-            string="Print Check (Middle)"
+            string="Print Check HN (Middle)"
             model="account.payment"
             name="l10n_hn_check_printing.print_check_middle"
             file="l10n_hn_check_printing.print_check_middle"
@@ -45,7 +45,7 @@
         />
 
         <report id="action_print_check_bottom"
-            string="Print Check (Bottom)"
+            string="Print Check HN (Bottom)"
             model="account.payment"
             name="l10n_hn_check_printing.print_check_bottom"
             file="l10n_hn_check_printing.print_check_bottom"
