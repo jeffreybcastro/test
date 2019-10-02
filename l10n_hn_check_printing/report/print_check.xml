@@ -16,15 +16,15 @@
         <t t-if="page['state'] == 'cancelled'">
             <div class="o-watermark">VOID</div>
         </t>
-        <div class="sequence_number" t-if="page['sequence_number']" t-esc="page['sequence_number']" />
+        <div class="ckhn_payee_addr" t-esc="page['partner_id']" t-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": True}'/>
+        <!--div class="sequence_number" t-if="page['sequence_number']" t-esc="page['sequence_number']" /-->
         <div class="ckhn_date" t-esc="page['payment_date']"/>
         <div class="ckhn_payee_name" t-esc="page['partner_name']"/>
         <div class="ckhn_amount">
             <t t-esc="page['amount'].replace(o.currency_id.symbol, '')"/>
         </div>
         <div class="ckhn_amount_in_word" t-esc="page['amount_in_word']"/>
-        <div class="ckhn_payee_addr" t-esc="page['partner_id']" t-options='{"widget": "contact", "fields": ["address", "name"], "no_marker": True}'/>
-        <div class="ckhn_memo" t-esc="page['memo']"/>
+        <!--div class="ckhn_memo" t-esc="page['memo']"/-->
     </div>
 </template>
 
