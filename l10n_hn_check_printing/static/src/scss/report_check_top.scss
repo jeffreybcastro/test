@@ -19,24 +19,19 @@
         left: 6.11in;
         width: 1.47in;
         text-align: left;
-        border-style: solid;
-        border-width: 1px;
     }
     .ckhn_payee_name {
         top: 1.47in;
         left: 0.35in;
         width: 4.0in;
         text-align: left;
-        border-style: solid;
-        border-width: 1px;
     }
     .ckhn_amount {
         top: 1.43in;
         left: 6.35in;
         width: 1.08in;
         text-align: left;
-        border-style: solid;
-        border-width: 1px;
+        font-weight: bold;
     }
     .ckhn_amount_in_word {
         top: 2.05in;
@@ -45,14 +40,10 @@
         text-align: left;
         font-weight: bold;
         overflow: hidden;
-        border-style: solid;
-        border-width: 1px;
     }
     .ckhn_payee_addr {
         top: 0.69in;
         left: 4.11in;
-        border-style: solid;
-        border-width: 1px;
     }
     .ckhn_memo {
         top: 2.41in;
@@ -61,7 +52,5 @@
         text-align: left;
         font-size: 0.9em;
         overflow: hidden;
-        border-style: solid;
-        border-width: 1px;
     }
 }
